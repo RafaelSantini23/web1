@@ -1,0 +1,176 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#geral {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(../img/fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+#contato {
+    width: 60%;
+    height: 94%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.568);
+    border-radius: 20px; 
+}
+#f-cadastro {
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 30px;
+    font-family: sans-serif;
+    
+}
+#dados input {
+    border-radius: 9px;
+    background-color: rgba(255, 255, 255, 0.404);
+    border: none;  
+    height: 15px;
+}
+#dados .lbl {
+    margin-left: 2%;
+    color: white;
+    
+}
+#f-endereço input {
+    background-color: rgba(255, 255, 255, 0.404);
+    border: none;
+    border-radius: 9px;
+    height: 30px;
+}
+#f-endereço label {
+    color: white;
+}
+#usuario {
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+#usuario input {
+    background-color: rgba(255, 255, 255, 0.404);
+    border-radius: 9px;
+    border: none;
+    
+    
+}
+#dados {
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+#f-sexo {
+    margin-top: 12px;
+    height: 70px;
+    margin-right: 90px;
+    margin-left: 40px;
+}
+#f-sexo legend {
+    font-size: 2vmin;
+}
+#f-endereço {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#f-endereço label {
+    margin-left: 12px;
+}
+#usuario {
+    margin-top: 15px;
+    height: 10%;
+    border-radius: 30px;
+}
+#usuario label {
+    color: white;
+    
+}
+.sexo {
+    margin-left: 2%;
+}
+#inpt {
+    margin-top: 60px;
+    margin-bottom:  60px;
+    height: 40px;
+    border-radius: 30px;
+}
+.lbln {
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 30px;
+    width: 180px
+}
+.enviar {
+    height: 30px;
+    width: 60px;
+    margin-left: 1%;
+}
+
+select  {
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+textarea {
+    margin-top: 35px;
+    background-color: rgba(255, 255, 255, 0.404);
+    margin-left: 12px;
+}
+
+
+
+#contato form fieldset {
+
+    border-radius: 12px;
+}
+#contato #f-cadastro legend {
+
+    
+    border-radius: 12px;
+    font-weight: bold;
+    
+}
+.one {
+    margin-top: 9px;
+    width: 10%;
+    height: 60%;
+    
+}
+#comprovante {
+    margin-top: 3%;
+   
+    margin-left: 12px;
+}
+#anexar {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 12px;
+    
+}
+#titulo {
+    margin-top: 3%;
+    margin-left: 12px;
+}
+
+
+#mensagem {
+    width: 30%;
+    height: 150px;
+
+}
+.legenda {
+    font-size: 2.5vmin;
+}

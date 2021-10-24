@@ -1,0 +1,544 @@
+@charset 'utf-8';
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background-color: slategray;
+}
+
+#topo{
+  width: 100%;
+  background-image: url(../img/banner1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+#titulo{
+  color: white;
+  text-shadow:  0px 0px 10px #000;
+  margin-left: 10px;
+  font-size: 1.7em;
+  text-align: center;
+  float: left;
+}
+
+#btn-menu{
+  width: 50px;
+  height: 50px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 5px;
+  float: right;
+  margin-top: 5px;
+  margin-right: 10px;
+  color: white;
+}
+
+button a{
+  color: white;
+}
+
+#menu{
+  float: left;
+  width: 100%;
+  height: 0%;
+  background-color: rgba(58, 115, 238, 0.514);
+  position: fixed;
+  overflow: hidden;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+#menu:target{
+  height: 100%;
+  
+}
+
+#btn-fechar{
+  float: right;
+  padding: 30px;
+  margin-top: -7px;
+  font-weight: bold;
+}
+
+#menu ul{
+  width: 100%;
+  height: 100%;
+  clear: both;
+  margin-top: 30%;
+  text-align: center;
+  
+}
+
+#menu ul li{
+  padding: 3%;
+  color: white;
+  font-size: 1.5em;
+}
+
+#menu ul li:hover{
+  background-color: rgba(255, 255, 255, 0.199);
+}
+
+#corpo{
+  float: left;
+  width: 100%;
+}
+
+
+#slide{
+  margin-top: 20px;
+  float: left;
+  z-index: 1;
+  min-width: 100%;
+}
+
+#texto-carrousel{
+  margin-top: 50px !important;
+  margin: 10px;
+  padding: 5px;
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+
+}
+
+#texto-carrousel a{
+  color: lightskyblue;
+}
+
+#cardapio{
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 40px;
+  float: left;
+}
+
+
+
+#div-cardapio{
+  width: 320px;
+  height: 1550px;
+  background-color: lightgray;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+#titulo-cardapio{
+  text-align: center;
+  margin: 20px;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+#hamburguer1, #hamburguer2, #hamburguer3, #hamburguer4{
+  width: 250px;
+  height: 350px;
+  background-color: black;
+  border-radius: 2vmin;
+}
+
+#do-dia1, #do-dia2, #do-dia3{
+  width: 250px;
+  height: 400px;
+  background-color: black;
+  border-radius: 2vmin;
+}
+
+
+#do-dia{
+  width: 100%;
+  height: auto;
+  margin-top: 40px;
+  float: left;
+  margin-bottom: 100px;
+}
+
+#titulo-burg-do-dia{
+  margin-top: 35px;
+  text-align: center;
+  font-size: 2em;
+  color: black;
+  font-weight: bold;
+}
+
+#burg-do-dia{
+  width: 320px;
+  height: 1400px;
+  background-color: lightgray;
+  margin: auto;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.imagem-hamburguer-do-dia{
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  margin-top: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2vmin;
+}
+
+.titulo2-hamburguer {
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  margin: 20px;
+}
+
+.titulo-hamburguer2 {
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  padding-top: 20px;
+}
+
+#burguer1-do-dia{
+  background-image: url(../img/segunda.jpg);
+}
+
+#burguer2-do-dia{
+  background-image: url(../img/quarta.jpg);
+}
+
+#burguer3-do-dia{
+  background-image: url(../img/sexta.jpg);
+}
+
+
+
+#burguer1{
+  background-image: url(../img/burguer1.jpg);
+}
+
+#burguer2{
+  background-image: url(../img/burguer2.jpeg);
+}
+
+#burguer3{
+  background-image: url(../img/burguer3.webp);
+}
+
+#burguer4{
+  background-image: url(../img/burguer4.jpg);
+}
+
+.imagem-hamburguer{
+  width: 80%;
+  height: 150px;
+  margin: auto;
+  margin-top: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+.titulo-hamburguer{
+  text-align: center;
+  color: white;
+  font-size: 1.8em;
+  margin-top: 30px;
+}
+
+
+.descricao-hamburguer{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1em;
+  margin-bottom: 10px;
+  padding: 0 10px;
+}
+
+.descricao2-hamburguer{
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1em;
+  padding: 0 10px;
+}
+
+
+#rodape{
+  width: 100%;
+  height: 480px;
+  background-color: grey;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+#titulo-rodape{
+  color: black;
+  font-size: 2em;
+}
+
+#div-dev1, #div-dev2{
+  width: 80%;
+  height: 190px;
+  display: flex;  
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+#luiz, #rafael{
+  margin-top: 5px;
+  width: 100px;
+  height: 100px;
+  background-image: url(../img/luiz.jpg);
+  background-position: right top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100px;
+}
+
+#rafael{
+  background-image: url(../img/rafael.jpg);
+}
+
+#dev-nome{
+  color: black;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#div-redes-sociais{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#twitter, #instagram, #github{
+  width: 35px;
+  height: 35px;
+  background-image: url(../img/twitter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#instagram{
+  background-image: url(../img/instagram.png);
+}
+
+#github{
+  background-image: url(../img/github.png);
+}
+
+
+
+@media screen and (min-width:768px) {
+  #topo{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #titulo{
+    color: white;
+    text-shadow:  0px 0px 10px #000;
+    font-size: 2.7em;
+    text-align: center;
+    float: left;
+  }
+
+  #btn-menu, #btn-fechar{
+    display: none;
+  }
+
+  button a{
+    color: black;
+  }
+  
+  
+  #menu{
+    width: 80%;
+    height: 50px;
+    background-color: rgba(212, 212, 212, 0.589);
+    position: relative;
+    border-radius: 10vmin; 
+  }
+
+
+  #menu:target{
+  height: 50px;
+  }
+  
+  #menu ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0%;
+  }
+
+  #menu ul li{
+    padding: 0;
+  }
+
+  #menu ul li{
+    color: black;
+    font-size: 1.5em;
+  }
+
+  #menu ul li:hover{
+    background-color: transparent;
+  }
+
+
+  
+  
+
+}
+
+@media screen and (min-width:1024px) {
+  #div-cardapio{
+    width: 80%;
+    height: 1150px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+
+  #burg-do-dia{
+    width: 80%;
+    height: 650px;
+    background-color: lightgray;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  
+  }
+
+  #div-cardapio-burg {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  #hamburguer1, #hamburguer2, #hamburguer3, #hamburguer4{
+    width: 80%;
+    height:200px;
+    background-color: black;
+    border-radius: 2vmin;
+    display:flex;
+    
+  }
+
+  #titulo-do-dia {
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .imagem-hamburguer{
+    width: 290px;
+    height: 150px;
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 2vmin;
+  }
+
+  .descricao-hamburguer{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    padding: 0 20px;
+  }
+
+  .descricao2-hamburguer{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1em;
+    padding: 0 10px;
+  }
+
+  .titulo2-hamburguer {
+    text-align: center;
+    color: white;
+    font-size: 1.8em;
+    margin: 15px;
+  }
+
+  .burg {
+    width: 700px;
+  }
+  #titulo-burg-do-dia{
+    text-align: center;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+    
+  }
+  #do-dia1, #do-dia2, #do-dia3{
+    width: 240px;
+    height: 450px;
+    background-color: black;
+    border-radius: 2vmin;
+  }
+
+  #titulo-cardapio{
+    text-align: center;
+    margin: 20px;
+    font-size: 3em;
+    color: black;
+    font-weight: bold;
+  }
+  
+  
+ 
+}
+
+

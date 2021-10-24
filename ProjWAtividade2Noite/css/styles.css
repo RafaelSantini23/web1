@@ -1,0 +1,49 @@
+#corpo{
+    background-image: url('../img/image.png');
+}
+
+/*Topo da página*/
+#topo {  
+    text-align: center;
+    color: aliceblue;
+}
+
+/*Conteúdo principal*/
+#principal {
+    text-align: center;
+    color: aliceblue;
+}
+
+
+#spann {
+   text-align: center;
+   color: aliceblue;
+}
+
+/*Barra de navegação*/
+#nav-bar {
+    color: aliceblue;
+    padding-top: 1%;
+    text-align: center;
+}
+
+/*Lista ordenada e não ordenada*/
+#list  {
+    text-align: center ;
+    list-style-position: inside;
+
+}
+
+#seçao {
+    color: aliceblue;
+    text-align: center;
+}
+
+/*Rodapé da pagina*/
+#rodape{
+    padding-top: 4%;
+    
+    color: aliceblue;
+    text-align: center;
+    
+}

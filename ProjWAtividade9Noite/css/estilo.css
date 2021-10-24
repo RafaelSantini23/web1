@@ -1,0 +1,234 @@
+@charset 'utf-8';
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+#principal {
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    background-color: #fb8900;
+}
+#tela1,#tela2{
+    width: 100%;
+    height: 50%;
+   
+}
+
+#tela2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    
+}
+#propagandas {
+    width: 96%;
+    height: 99%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    
+    
+}
+#primeira-propaganda,#segunda-propaganda,#terceira-propaganda {
+    width:32%;
+    height: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    
+    
+}
+#primeira-propaganda {
+    background-color:blue;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10vmin;
+    
+}
+#primeira-propaganda figure {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/img1.jpg);
+    background-size: cover;
+    border-radius: 1vmin 1vmin 0 0;
+    
+    
+    
+}
+#primeira-propaganda div {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 0 0 1vmin 1vmin;
+}
+#segunda-propaganda figure {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/img2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vmin 1vmin 0 0;
+    
+    
+}
+#segunda-propaganda div {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 0 0 1vmin 1vmin;
+}
+
+#terceira-propaganda figure {
+    width: 100%;
+    height: 50%;
+    background-image: url(../img/img3.png);
+    background-size: cover;
+    border-radius: 1vmin 1vmin 0 0;
+}
+#terceira-propaganda div {
+    width: 100%;
+    height: 50%;
+    background-color: white;
+    border-radius: 0 0 1vmin 1vmin;
+}
+#conteudo-esquerdo {
+    width: 51%;
+    height: 92%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#img-direita {
+    width: 50%;
+    height: 85%;
+    background-color: white;
+    
+}
+#primeiro-conteudo,#segundo-conteudo,#terceiro-conteudo {
+    width: 89%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#primeiro-conteudo {
+    display: flex;
+    
+}
+#primeiro-conteudo figure{
+    width: 50%;
+    height: 100%;
+    border-radius: 1vmin 0 0 1vmin;
+    background-image: url(../img/img1-tela2.png);
+    background-size: cover;
+}
+#primeiro-conteudo div{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 1vmin 1vmin 0;
+}
+#segundo-conteudo figure{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/img2-tela2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1vmin 0 0 1vmin;
+}
+#segundo-conteudo div{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 1vmin 1vmin 0;
+}
+#terceiro-conteudo figure{
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/img3-tela2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vmin 0 0 1vmin;
+}
+#terceiro-conteudo div{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 1vmin 1vmin 0;
+}
+#conteudo-direito {
+    width: 40%;
+    height: 87%;
+}
+#conteudo-direito figure {
+    height: 60%;
+    width: 100%;
+    background-image: url(../img/img4-tela2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1vmin 1vmin 0 0;
+    
+}
+#conteudo-direito div {
+    height: 40%;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 1vmin 1vmin;
+
+}
+.titulo-tela1 {
+    text-align: center;
+    padding: 5%;
+    font-family: sans-serif;
+    font-size: 3vmin;
+    font-weight: bold;
+}
+.texto-tela1 {
+    font-size: 2.5vmin;
+    font-family: sans-serif;
+    padding: 1%;
+    text-indent: 9%;
+    line-height: 4vmin;
+
+}
+.titulo-tela2 {
+    font-size: 2.5vmin;
+    text-align: center;
+    padding: 3%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.texto-tela2 {
+    font-family: sans-serif;
+    padding: 1%;
+    text-indent: 6%;
+    font-size: 1.5vmin;
+    line-height: 3vmin;
+
+}
+#titulo-tela3 {
+    font-size: 3.5vmin;
+    text-align: center;
+    padding: 4%;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#texto-tela3 {
+    font-family: sans-serif;
+    padding: 2%;
+    text-indent: 6%;
+    font-size: 2.5vmin;
+    line-height: 4vmin;
+}
+
+
+

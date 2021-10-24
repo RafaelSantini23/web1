@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 8</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div id="geral">
+        <div id="contato">
+            <form action="" method="GET" >
+                <fieldset id="f-cadastro">
+                    <legend class="legenda">CADASTRO DE USUÁRIO</legend>
+                    <fieldset id="dados">
+                        <legend class="legenda">Dados Pessoais</legend>
+                        <p>
+                            <label class="lbl">Nome:</label>
+                            <input type="text" >
+                        </p>
+                        <p>
+                            <label class="lbl">Idade:</label>
+                            <input type="number">
+                        </p>
+                        <p>
+                            <label class="lbl">Data de nascimento:</label>
+                            <input type="date">
+                        </p>
+                    
+                    <fieldset id="f-sexo">
+                        <legend class="legenda">Sexo:</legend>
+                        <p>
+                            <input type="radio" name="sexo" class="sexo">
+                            <label class="sexo" class="sexo">Masculino</label>
+                            <input type="radio" name="sexo" class="sexo">
+                            <label id="sexo" class="sexo">Feminino</label>
+                        </p>
+                        
+                    </fieldset>
+                    </fieldset>
+                    <fieldset id="f-endereço">
+                        <legend class="legenda">Dados Da Localização</legend>
+                        <p>
+                            <label>Rua:</label>
+                            <input type="text">
+                            <label >Número:</label>
+                            <input type="number">
+                            <label >Cidade:</label>
+                            <input type="text">
+                            <label>UF:</label>
+                            <select name="" id="" >
+                                <option >RS</option>
+                                <option >SC</option>
+                                <option >RJ</option>
+                                <option >SP</option>
+                            </select>
+                            
+                            <p>
+                            <legend id="titulo">Informe um ponto de referência</legend>
+                            <textarea id="mensagem"></textarea>
+                            </p>
+                            <p >
+                                <legend id="comprovante">Anexar Comprovante de residência:</legend>
+                                <input type="file" value="Escolher Arquivo" id="anexar">
+                            </p>
+                            
+                        </p>
+                    </fieldset>
+                    <fieldset id="usuario">
+                        <legend class="legenda">Usuário e Senha</legend>
+                        <p>
+                            <label class="lbln">Usuário:</label>
+                            <input type="text" class="lbln">
+                            <label class="lbln">Senha:</label>
+                            <input type="number" class="lbln">
+                            <input type="button" value="Validar" class="enviar">
+                        </p>
+                        <fieldset id="inpt">
+                            <input type="button" value="Enviar" class="one" >
+                            <input type="reset" value="Limpar Campos"  class="one" >
+                        </fieldset>
+                    </fieldset>
+                    
+                        
+                    
+                </fieldset>
+            </form>
+     
+        </div>
+    </div>
+</body>
+</html>

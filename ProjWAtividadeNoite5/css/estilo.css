@@ -1,0 +1,81 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#geral {
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    position: absolute;
+
+}
+
+#topo {
+    background-color: gray;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav-bar {
+    background-color: rgb(71, 17, 17);
+    width: 50%;
+    height: 30%;
+    
+}
+#body_aside, #body_article {
+    display: flex;
+    width: 25%;
+    height: 100%;
+    background-color: darkgreen;
+    display: flex;
+    
+}
+#body_article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#body_article div{
+    flex-direction: column;
+    height: 85%;
+    width: 75%;
+    background-color: orangered;
+}
+
+#body_section {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(6, 6, 150);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#body_section figure{
+    width: 35%;
+    height: 35%;
+    background-color: gray;
+}
+
+#corpo{
+    width: 100%;
+    height: 70%;
+    background-color: cadetblue;
+    display: flex;
+}
+
+#rodape {
+    width: 100%;
+    height: 10%;
+    background-color: silver;
+}
